@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.clr {
+    clear: both;
+}
+.navbar {
+    background-color: rgba(0,0,0, 0.2);
+}
+.logo img { 
+    width: 50px;
+    height: 50px ;
+    float: left;
+    /* margin-left: 20px; */
+    padding: 10px 20px ;
+}
+.navbar .menu {
+    float: right;
+}
+.menu ul {
+    list-style: none;
+    margin:20px ;
+    padding-bottom: 20px ;
+}
+.menu ul li {
+    float: left;
+    margin: 10px;
+}
+.menu ul li a {
+    text-decoration-line: none;
+    color: black;
+}
+#home .containt{
+    background-image: url(images/photo1jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:600px;
+    text-align: center;
+    color: #fff
+}
+#home .containt h3 {
+    padding: 100px  0px 50px;
+    /* size-adjust: 100px; */
+}
+#home .containt  h1 {
+    font-size: 100px;
+}
+#home .containt  p{
+    padding: 20px 100px;
+}
+#home .containt  button {
+    padding: 10px;
+    border-style: solid;
+
+}
+#home .containt  .but1 {
+    background-color:rgb(161, 71, 7);
+    border-color: rgb(161, 71, 7);
+}
+#home .containt  .but2 {
+    background-color: transparent;
+}
+#about {}
+.productpic {
+
+    width: 50%;
+}
+.productpic img{
+    float: left;
+    width: 500px;
+    width: 90%;
+    padding: 50px 30px;
+}
+.aboutus {
+    float:right;
+    width: 50%
+}
+.aboutus .content{
+    padding-top: 100px;
+    padding-left: 20px;
+    /* padding:100px 20px; */
+    text-align: left;
+}
+.aboutus .content p{
+    line-height: 20px;
+}
+.icons{
+    margin: 30px 20px;
+}
+.icons p{
+    display: inline;
+}
+.icons img {
+    width: 20px;
+    height: 20px;
+}
+.locpic{
+    width: 50%;
+    float: right;
+}
+.locpic img{
+    float: right;
+    width: 500px;
+    width: 90%;
+    padding: 50px 30px;
+}
+.loccontent {
+    float: left;
+    width: 50%;
+    /* padding-top: 100px;
+    margin-left: 20px; */
+}
+.loccontent h3 {
+    padding: 50px;
+}
+.loccontent p {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 30px 50px;
+}
+#Gallary .baking {
+    text-align: center;
+    margin-top: 100px;
+}
+.baking h4 {
+    padding-bottom: 50px;
+}
+.baking p {
+    padding-bottom: 50px;
+    /* padding: 20px 50px; */
+
+}
+.BakingGallary{
+    float: left;
+    width:33.3%;
+    text-align: center;
+   /* margin-right: 10px; */
+
+}
+.BakingGallary img{
+    width: 80%;
+    /* margin-right: 10px; */
+    /* border-radius: 50%; */
+}
+.BakingGallary p{
+    padding: 10px 50px;
+    font-size: 12px;
+    line-height: 18px;
+
+}
+.BakingGallary h6 {
+    padding: 10px 50px;
+}
+#map {
+    float: right;
+    margin: 50px;
+}
+.contactinfo h4{
+    margin-top: 100px;
+padding: 50px;
+}
+.contactinfo p {
+    padding-left: 50px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.contactinfo .icons img {
+    padding-left: 50px;
+}
+footer{
+    background-color: gray;
+    height: 400px;
+}
+.fdiscription {
+    float: left;
+    width: 25%;
+}
+.fdiscription h5{
+    margin: 50px
+}
+.fdiscription p{
+    font-size: small;
+    padding: 0 30px 50px;
+    /* padding-left: 50px; */
+}
+.fdiscription h6{
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 0 30px 20px;
+}
+.fdiscription hr{
+    size: 80%;
+    margin: 0 30px ;
+}
